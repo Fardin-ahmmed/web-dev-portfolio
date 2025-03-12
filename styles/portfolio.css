@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.open {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.text {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.black2 {
+  color: #474747;
+  font-size: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 150px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 1800px;
+}
+.btn {
+  font-size: 20px;
+  background-color: #fd6e0a;
+  font-weight: bold;
+  padding: 18px 32px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 250px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.me {
+  font-size: 65px;
+  font-weight: 600px;
+  color: #474747;
+}
+.title {
+  font-size: 90px;
+  font-weight: bold;
+}
+.profile {
+  width: 785px;
+}
